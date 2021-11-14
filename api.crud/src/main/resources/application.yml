@@ -1,0 +1,24 @@
+spring:
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        # show_sql: true
+        format_sql: true
+        default_batch_fetch_size: 1000 #최적화 옵션
+#   datasource:
+#     driver-class-name: org.postgresql.Driver
+#     url: jdbc:postgresql://localhost:5435/api015-database
+#     username: api015-database
+#     password: api015-database
+
+logging:
+  level:
+    root: info
+    org.hibernate.SQL: debug
+    # org.hibernate.type: trace
+    
+server:
+  port: 8090
