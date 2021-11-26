@@ -23,6 +23,7 @@ public class ContactService {
     private final ContactSetRepository contactSetRepository;
     private final ContactGroupRepository contactGroupRepository;
 
+    @Transactional
     public Contact create(ContactCreateReqDto request) {
         //주소록 생성
         Contact contact = contactRepository.save(Contact.createContact(
