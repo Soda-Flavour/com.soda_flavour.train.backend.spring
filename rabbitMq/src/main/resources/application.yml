@@ -45,7 +45,7 @@ com:
 ###############################
 # spring.rabbitmq.host=localhost
 # spring.rabbitmq.port=5672
-# spring.rabbitmq.username=say015
-# spring.rabbitmq.password=say015
-# spring.rabbitmq.virtual-host=/mcmp
+# spring.rabbitmq.username=test
+# spring.rabbitmq.password=test
+# spring.rabbitmq.virtual-host=/
 
